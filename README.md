@@ -22,6 +22,10 @@ Este projeto foi desenvolvido em Angular version 16.1.7 e .Net 6
 
 ---
 
-## Visualização
+## Visualização Frontend
 
 <img src="HomePage.png">
+
+## Visualização Backend
+
+<img src="Backend.png">
