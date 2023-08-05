@@ -1,0 +1,9 @@
+<div class="home-container">
+  <p>Saldo Conta Corrente: {{ patrimonio?.checkingAccountAmount }}</p>
+  <div *ngFor="let position of patrimonio?.positions">
+    <p>Ticket: {{ position.symbol }}</p>
+    <p>Quantidade: {{ position.amount }}</p>
+    <p>Preço Atual: {{ position.currentPrice }}</p>
+  </div>
+  <p>Saldo Consolidado: {{ patrimonio?.consolidated }}</p>
+</div>
